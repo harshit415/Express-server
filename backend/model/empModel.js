@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const schema = new mongoose.schema({
-    empno: Number,
+    empno: string,
     name: String,
     designation: String,
     dept: String,
